@@ -2,11 +2,11 @@
 
 ## Overview
 This project implements a rover control system with:
-- ESP32 firmware that decodes RSCP (Rover Serial Control Protocol) messages
+- ESP32 Code that decodes RSCP (Rover Serial Control Protocol) messages
 - Python client script (`arm.py`) to send Arm/Disarm commands
 
 ## Features
-### ESP32 Firmware
+### ESP32 Code
 - 🛡️ Decodes RSCP protocol using nanopb
 - 📡 Processes COBS-encoded frames
 - 🔧 Controls GPIO2 (D2) pin state (HIGH=Armed, LOW=Disarmed)
@@ -30,7 +30,7 @@ This project implements a rover control system with:
 
 ## Installation
 ### ESP32
-1. Upload firmware to ESP32
+1. Upload Code to ESP32
 
 ### Python Client
 ```bash
