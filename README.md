@@ -31,6 +31,7 @@ This project implements a rover control system with:
 ## Installation
 ### ESP32
 1. Upload Code to ESP32
+2. All the needed libraries have been included and cobs encoding and decoding is builtin the code.
 
 ### Python Client
 ```bash
